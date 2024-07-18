@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <h1>ДЗ 4.1. Селектори CSS, специфічність селекторів</h1>
+    </header>
+
+    <div>
+        <ol style="color: fuchsia;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="univers.html" target="_parent">Universal Селектор CSS</a></li>
+            <li><a href="group.html" target="_top">Групування селекторів та батьків</a></li>
+            <li><a href="after.html" target="_self">Before & After</a></li>
+
+        </ol>
+    </div>
+
+    <!--Створити на сторінці 10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні варіанти селекторів:-->
+    <div>
+        <p>Створити на сторінці 10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні варіанти
+            селекторів:</p>
+
+    </div>
+
+    <section class="content">
+        <p>Створити на сторінці 10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні варіанти
+            селекторів:</p>
+        <div class="wrapper">
+            <p>Створити на сторінці 10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні
+                варіанти селекторів:</p>
+            <nav>
+                <div>
+                    <p>Створити на сторінці 10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні
+                        варіанти селекторів:</p>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <div>
+        <h1>Заголовок Н1</h1>
+        <p>10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні варіанти:</p>
+        <p>10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні варіанти селекторів:</p>
+    </div>
+    <div>
+        <section>
+            <h2>Заголовок Н2</h2>
+            <p>Правила мають бути чіткими та зрозумілими.</p>
+            <span>SPAN. ~ Правила мають бути чіткими та зрозумілими.</span>
+            <p>Правила мають бути чіткими та зрозумілими.</p>
+            <p>Правила мають бути чіткими та зрозумілими.</p>
+        </section>
+    </div>
+
+    <br>
+
+    <div>
+        <a href="https://example.com/page1">Сторінка 1</a>
+        <a href="https://example.com/about">Про нас</a>
+        <a href="https://example.com/page2" id="pager">Сторінка 2</a>
+        <a href="https://example.com/pagerining">Сторінка 3</a>
+        <a href="https://example.com/pager">Сторінка 4</a>
+        <a href="https://example.com/paging">Сторінка 5</a>
+        <br>
+        <a href="https://example.com/page1">Сторінка 1</a>
+        <a href="https://example.com/about">Про нас</a>
+        <a href="https://example.com/page2">Сторінка 2</a>
+        <a href="https://example.com/pagerining">Сторінка 3</a>
+        <a href="https://example.com/pager">Сторінка 4</a>
+        <a href="https://example.com/paging">Сторінка 5</a>
+        <br>
+        <a href="https://exam.com/page1">Сторінка 1</a>
+        <a href="https://exam.com/about">Про нас</a>
+        <a href="https://exam.com/page2">Сторінка 2</a>
+    </div>
+    <br>
+
+    <nav class="parent">
+        Я тут батько!
+        <text class="child">тоді я мaлюк </text>
+    </nav>
+    <br>
+
+    <div class="group">
+        <nav>
+            <pre>
+        Групування
+        Групування властивостей
+        Групування властивостей у CSS - це практика об'єднання кількох схожих властивостей в одне коротше правило. </pre>
+        </nav>
+    </div>
+    <br>
+
+    <div class="li-first">
+        <ul>
+            <li>Створити файли index.html та style.css, підключити стилі до розмітки.</li>
+            <li>У файлі стилів написати правило (наприклад, додати фон).</li>
+            <li class="special">В розмітці для елемента, до якого застосовується це правило, описати селектор і
+                розрахувати його вагу.
+            </li>
+            <li>Наприклад, для правила у стилях:</li>
+        </ul>
+    </div>
+    <br>
+
+    <div class="li-second">
+        <ul>
+            <li>Створити файли index.html та style.css, підключити стилі до розмітки.</li>
+            <li>У файлі стилів написати правило (наприклад, додати фон).</li>
+            <li class="special" id="second">В розмітці для елемента, до якого застосовується це правило, описати
+                селектор і розрахувати його вагу.
+            </li>
+            <li>Наприклад, дcля правила у стилях:</li>
+        </ul>
+    </div>
+
+
+
+</body>
+
+</html>

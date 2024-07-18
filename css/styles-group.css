@@ -1,0 +1,52 @@
+body{
+margin-left: 40px;
+}
+
+h1, li, a {
+    color: aqua;
+    font-size: 18px;
+    background-color: rgb(131, 127, 255);
+    border-radius: 5px;
+}
+
+section, h2, nav, ol {
+    color: #3d055e;
+    background-image: url(../images/Oscar-Claude\ Monet\ 300.jpg);
+    background-size:200%;
+    border-radius: 13pt;
+    border-style: double;
+    padding: 5px 5px 5px 10px;
+}
+
+
+.parent-color-one {
+    color: #ff0606;
+}
+.parent-color-one:hover {
+    color: #1079fa;
+}
+
+.parent-color:hover {
+    width: 190px;
+    height: 18px;
+    color: #fa1010;
+    box-shadow: 0 0 20px #fa1010;
+}
+
+.parent-color-two :hover {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.parent-color-three:hover {
+    font-size: 22px;
+    font-style: italic;
+    color: #89f5ab;
+    background-image: url(../images/Sea.jpg);
+    background-position: 0% 40%;
+    background-size: cover;
+    box-shadow: 0 0 80px #c3fe4d;
+    
+
+}
+

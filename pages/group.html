@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles-group.css">
+
+    <title>Групування селекторів та батьків</title>
+</head>
+
+<header>
+    <h1>Групування селекторів та батьків</h1>
+</header>
+
+<body>
+    <div>
+        <ol style="color: fuchsia;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="univers.html" target="_parent">Universal Селектор CSS</a></li>
+            <li><a href="group.html" target="_top">Групування селекторів та батьків</a></li>
+            <li><a href="after.html" target="_self">Before & After</a></li>
+        </ol>
+    </div>
+
+    <!--Створити на сторінці 10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні варіанти селекторів:-->
+    <div>
+        <p>Створити на сторінці 10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні варіанти
+            селекторів:</p>
+
+    </div>
+    <br>
+
+    <nav class="parent-color-one">
+        Я тут батько!
+        <text class="child-color">тоді я мaлюк </text>
+    </nav>
+    <br>
+
+    <nav class="parent-color">
+        Я тут батько!
+        <text class="child-color">тоді я мaлюк </text>
+    </nav>
+    <br>
+
+
+    <nav class="parent-color-two">
+        Я теж батько і шо!
+        <text class="child-color-two"> А я тоді теж мaлюк і що?</text>
+    </nav>
+    <br>
+
+    <nav class="parent-color-three">
+        Так і я батько що з цього?
+        <text class="child-color-two"> І всі ми мaлюки!</text>
+    </nav>
+    <br>
+
+    <section class="content">
+        <p>Створити на сторінці 10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні варіанти
+            селекторів:</p>
+        <div class="wrapper">
+            <p>Створити на сторінці 10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні
+                варіанти селекторів:</p>
+            <nav>
+                <div>
+                    <p>Створити на сторінці 10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні
+                        варіанти селекторів:</p>
+                </div>
+            </nav>
+        </div>
+
+    </section>
+
+    <div>
+        <h3>Заголовок Н3</h3>
+        <p>10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні варіанти:</p>
+        <p>10 елементів, кожному присвоїти різний колір. Необхідно реалізувати наступні варіанти селекторів:</p>
+    </div>
+    <div>
+        <section>
+            <h2>Заголовок Н2</h2>
+            <p>Правила мають бути чіткими та зрозумілими.</p>
+            <span>SPAN. ~ Правила мають бути чіткими та зрозумілими.</span>
+            <p>Правила мають бути чіткими та зрозумілими.</p>
+            <p>Правила мають бути чіткими та зрозумілими.</p>
+        </section>
+    </div>
+
+    <br>
+
+    <div>
+        <a href="https://example.com/page1">Сторінка 1</a>
+        <a href="https://example.com/about">Про нас</a>
+        <a href="https://example.com/page2" id="pager">Сторінка 2</a>
+        <a href="https://example.com/pagerining">Сторінка 3</a>
+        <a href="https://example.com/pager">Сторінка 4</a>
+        <a href="https://example.com/paging">Сторінка 5</a>
+        <br>
+        <a href="https://example.com/page1">Сторінка 1</a>
+        <a href="https://example.com/about">Про нас</a>
+        <a href="https://example.com/page2">Сторінка 2</a>
+        <a href="https://example.com/pagerining">Сторінка 3</a>
+        <a href="https://example.com/pager">Сторінка 4</a>
+        <a href="https://example.com/paging">Сторінка 5</a>
+        <br>
+        <a href="https://exam.com/page1">Сторінка 1</a>
+        <a href="https://exam.com/about">Про нас</a>
+        <a href="https://exam.com/page2">Сторінка 2</a>
+    </div>
+    <br>
+
+</body>
+
+
+</html>

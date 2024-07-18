@@ -1,0 +1,99 @@
+body {
+  margin-left: 40px;
+}
+div p {
+  color: rgb(136, 189, 39);
+}
+
+section > p {
+  color: blueviolet;
+}
+
+section * p {
+  color: #fed54d;
+}
+
+h1 + p {
+  color: #fe4dae;
+}
+
+span ~ p {
+  color: #4dfe85;
+}
+
+a[href*="page"] {
+  color: rgb(43, 118, 141);
+}
+
+a[href^="https://exam.com"]
+{
+  color: rgb(141, 43, 125);
+}
+
+#pager {
+  color: #4dfe85;
+}
+
+a[href$="ing"] {
+  font-size: 22px;
+}
+
+.parent {
+  color: #de4dfe;
+}
+.child {
+  font-size: 30px;
+}
+
+.group {
+  color: #ceee2c;
+  font-size: 15pt;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.group {
+  color: #534094;
+  font-size: 15pt;
+  margin-top: 10px 20px;
+}
+
+.li-first::first-letter {
+  color: #de4dfe;
+  font-weight: bold;
+}
+
+ul li:first-child {
+  color: rgb(47, 0, 255);
+}
+
+ul li:last-child {
+  font-weight: bold;
+  color: #eb0c8e;
+}
+
+.li-second::first-line {
+  color: #019332;
+}
+
+ul li:nth-child(2) {
+    color: #f69cea;
+}
+
+.li-second::first-letter {
+    background-color: #534094;
+    border-radius: 19px;
+    font-size: 300%;
+    color: #fed54d;
+}
+
+.special {
+    background-image: url(../images/Sea.jpg);
+    background-position: 0% 20%;
+    border-radius: 4px;
+}
+.special:not(#second) {
+color: #ceee2c;
+} 
+
